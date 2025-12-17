@@ -37,7 +37,7 @@ class LLNandCLT(Scene):
             lln_axes.c2p(300, expected_value),
             color=YELLOW,
             stroke_width=2,
-            dash_length=0.1
+            length=0.1
         )
         expected_label = Paragraph("Expected: 3.5", font_size=12, color=YELLOW).next_to(
             lln_axes.c2p(80, 3.5), UP, buff=0.1
